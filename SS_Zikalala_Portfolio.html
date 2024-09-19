@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smanga Zikalala - Tech Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #6c63ff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6c63ff;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-info ul li {
+    margin-bottom: 10px;
+}
+
+#contact-info ul li a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+#contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article h3 {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+article ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+}
+
+article a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+#skills ul, #soft-skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#skills ul li, #soft-skills ul li {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #5348cc;
+}
+
+#references {
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+</style>
+
+<body>
+    <header>
+        <h1>Smanga Zikalala - Tech Portfolio</h1>
+    </header>
+
+    <section id="contact-info">
+        <h2>Contact Information:</h2>
+        <ul>
+            <li>Email: <a href="mailto:zikalalasmanga57@gmail.com">zikalalasmanga57@gmail.com</a></li>
+            <li>Phone: 0627530533</li>
+            <li>GitHub: <a href="https://github.com/Smangaliso-bit" target="_blank">Smangaliso-bit (Smanga Zikalala)</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/smanga-sthembiso-zikalala-7494a128b" target="_blank">Smanga Sthembiso Zikalala</a></li>
+        </ul>
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>I am a final-year Computer Science student at Tshwane University of Technology, specializing in software and mobile development. With a strong foundation in Java, Kotlin, SQL, HTML, CSS, and Linux, I am passionate about building innovative web applications that address real-world problems.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>Pulse App - Mood Detection Web Application</h3>
+            <p><strong>Description:</strong> The Pulse App is a web application that uses sensors to detect a user's pulse and determine their mood based on the collected data. It provides insights into the user's emotional state, aiding in better understanding and management of emotions.</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Real-time pulse detection via connected sensors</li>
+                <li>Mood analysis based on biometric data</li>
+                <li>User-friendly web interface displaying mood results</li>
+            </ul>
+            <p><strong>Technologies Used:</strong> Java, Kotlin, HTML, CSS, JavaScript, Spring Boot, MongoDB, MariaDB, Bootstrap</p>
+            <p><strong>Link:</strong> <a href="https://github.com/igris-marvin/pulse_app_repo" target="_blank">igris-marvin/pulse_app_repo (GitHub)</a></p>
+            <p><strong>Hosting Information:</strong> This project is not hosted because it requires a sensor device for the pulse to run.</p>
+        </article>
+
+        <article>
+            <h3>Mobile Toilet Booking Web Application</h3>
+            <p><strong>Description:</strong> The Mobile Toilet Booking App is a web-based platform that allows users to locate and book nearby toilets. This application aims to improve public sanitation by providing a convenient solution for finding and reserving restrooms.</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Real-time location tracking of available facilities</li>
+                <li>Booking and reservation system</li>
+                <li>User reviews and ratings for facilities</li>
+            </ul>
+            <p><strong>Technologies Used:</strong> Kotlin, HTML, CSS, JavaScript, Spring Boot, MariaDB, Derby, Google Maps API, Firebase for database management, Bootstrap</p>
+            <p><strong>Link:</strong> <a href="https://github.com/JudasM/TnF-Booking" target="_blank">JudasM/TnF-Booking (GitHub)</a></p>
+            <p><strong>Hosting Information:</strong> This project is not hosted because it requires database connectivity.</p>
+        </article>
+
+        <article>
+            <h3>Sani E-Commerce Web Application</h3>
+            <p><strong>Description:</strong> The Sani E-Commerce platform is a sophisticated web application designed for the online retail of furniture. The platform offers users a seamless shopping experience with an extensive catalogue of high-quality furniture items, streamlined purchasing processes, and secure payment options.</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Comprehensive product catalogue with detailed descriptions and images</li>
+                <li>Secure user authentication and account management</li>
+                <li>Shopping cart and wish list functionality</li>
+                <li>Integrated payment gateway for secure transactions</li>
+                <li>Order tracking and management system</li>
+                <li>Responsive design for optimal viewing across devices</li>
+            </ul>
+            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, Kotlin, Spring Boot, MariaDB, MongoDB, Bootstrap, Stripe API (for payment processing), Firebase (for user authentication and data management)</p>
+            <p><strong>Link:</strong> <a href="https://github.com/igris-marvin/sani" target="_blank">igris-marvin/sani (GitHub)</a></p>
+            <p><strong>Hosting Information:</strong> This project is not hosted because it requires database connectivity.</p>
+        </article>
+
+        <article>
+            <h3>TripCalc Web Application</h3>
+            <p><strong>Description:</strong> The TripCalc web application is designed to help users calculate time, speed, and distance based on input values. It serves as a quick and efficient tool for planning trips or estimating travel details by using basic mathematical formulas to determine either the time taken, the speed, or the distance covered.</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Input fields for time, speed, and distance</li>
+                <li>Ability to calculate any of the three values when the other two are provided</li>
+                <li>User-friendly interface with immediate feedback</li>
+                <li>Responsive design for mobile and desktop use</li>
+            </ul>
+            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, Responsive design with CSS Flexbox/Grid, Basic JavaScript functions for real-time calculations, Input validation</p>
+            <p><strong>Link:</strong> <a href="https://github.com/igris-marvin/sani" target="_blank">igris-marvin/sani (GitHub)</a></p>
+        </article>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Languages: Java, Kotlin, HTML, CSS, SQL</li>
+            <li>Frameworks & Libraries: Spring Boot, Bootstrap</li>
+            <li>Databases: MariaDB, MongoDB, Derby</li>
+            <li>Tools & Platforms: Firebase, Git, Linux, XAMPP</li>
+            <li>Other Skills: Business Analysis, Software Testing, Database Development</li>
+        </ul>
+    </section>
+
+    <section id="soft-skills">
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Critical Thinking: Ability to analyse problems and develop effective solutions</li>
+            <li>Team Collaboration: Experience working in team settings, contributing to project success</li>
+            <li>Innovation and Creativity: Developing new ideas and approaches to improve processes</li>
+            <li>Time Management: Effectively managing time to meet deadlines and prioritize tasks</li>
+            <li>Adaptability: Quickly adjusting to new environments and challenges</li>
+            <li>Active Listening: Paying attention to details and understanding requirements</li>
+            <li>Emotional Intelligence: Understanding and managing emotions to communicate effectively</li>
+            <li>Interpersonal Skills: Building strong relationships with colleagues and stakeholders</li>
+        </ul>
+    </section>
+
+    <section id="professional-development">
+        <h2>Professional Development</h2>
+        <p>I am actively seeking internship opportunities in software development, engineering, or database administration. I am eager to contribute my energy, creativity, and dedication to the success of a dynamic team while furthering my professional development.</p>
+    </section>
+
+    <section id="references">
+        <h2>References</h2>
+        <p>Available upon request.</p>
+    </section>
+</body>
+</html>
